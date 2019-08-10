@@ -1,0 +1,10 @@
+"'Area Calculator'"
+print "starting the calculator"
+from math import * 
+
+pp = raw_input("What is the Purchase Price " )
+if pp <= 20000:
+  print "$111.11" 
+
+elif pp <= 40000:
+  print "$222.22"
